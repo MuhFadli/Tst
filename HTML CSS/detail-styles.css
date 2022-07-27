@@ -1,0 +1,70 @@
+ul a li:hover, 
+ul a:hover li {
+  color: var(--primary-color);
+  text-decoration-line: overline;
+  -moz-text-decoration-line: overline;
+}
+
+.head-content h1 {
+    font-size: xx-large;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 16px auto;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-img {
+    width: 100%;
+    height: 310px;
+    border: 1px thistle solid;
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.content-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.desc p {
+    line-height: 2;
+}
+
+.end-content, .end-content p {
+    margin: 2rem auto;
+}
+
+/* .end-content p {
+    margin: 2rem auto;
+} */
+
+@media screen and (max-width:768px) {
+    .head-content h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:563px) {
+    .head-content h1 {
+        font-size: 24px;
+    }
+    .head-content p {
+        font-size: 14px;
+    }
+    .img-card {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width:483px) {
+    .head-content h1 {
+        font-size: 20px;
+    }
+}

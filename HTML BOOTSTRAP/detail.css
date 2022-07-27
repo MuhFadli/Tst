@@ -1,0 +1,12 @@
+
+.card-img-top {
+    background-size: cover;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+/* .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+} */
